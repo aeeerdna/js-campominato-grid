@@ -10,3 +10,49 @@ body {
 }
 
 /*** end GENERICS ***/
+
+
+/*** CONTENT ***/
+.cells,
+#start-btn {
+    border-radius: 15px;
+}
+
+#start-btn {
+    background-color: lightgreen;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.cells,
+#grid {
+    display: flex;
+}
+
+#grid {
+    flex-wrap: wrap;
+}
+
+.cells {
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 10);
+    height: 100px;
+    border: 2px solid lightblue;
+    margin: 2px;
+}
+
+.even {
+    background-color: lightcoral;
+}
+
+.odd {
+    background-color: lightgreen;
+}
